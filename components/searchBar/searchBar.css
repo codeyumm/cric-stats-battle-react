@@ -1,0 +1,25 @@
+/* style for search bar */
+
+.search-wrapper{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.search-wrapper input[type="text"]{
+    height: 24px;
+    width: 240px;
+    max-width: 240px;
+    min-width: 120px
+}
+
+.search-wrapper input[type="submit"]{
+    height: 30px;
+    width: 80px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+

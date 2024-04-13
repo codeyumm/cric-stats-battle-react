@@ -1,3 +1,32 @@
-header{
+/* stlye for navbar */
+
+nav{
     background-color: lightskyblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    letter-spacing: 1.5px;
+    align-items: center;
+}
+
+.logo h1{
+    font-weight: 500;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 20px;
 }
