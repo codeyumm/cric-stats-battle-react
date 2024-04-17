@@ -6,6 +6,7 @@ import About from '../components/about/about'
 
 function App() {
   return (
+    // routes for pages
     <BrowserRouter>
       <div>
         <NavBar />
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        
       </div>
     </BrowserRouter>
   )
