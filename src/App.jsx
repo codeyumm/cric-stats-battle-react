@@ -1,26 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import './index.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import NavBar from '../components/nav/navBar'
 import SearchBar from '../components/searchBar/searchBar'
+import Home from '../components/home/home'
+import About from '../components/about/about'
 
 function App() {
-  
-
   return (
-    <>
-      <NavBar/>
-
-      <main className='home-container'>
-
+    <BrowserRouter>
+      <div>
+        <NavBar />
+        <main className='home-container'>
           <h2>Find player to add in your team</h2>
-          <SearchBar/>
+          <SearchBar />
+        </main>
 
-      </main>
-      
-    </>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 
