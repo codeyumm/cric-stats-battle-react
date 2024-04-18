@@ -8,7 +8,7 @@ export default function NavBar() {
 
         <div className="logo">
           <img src="/images/wicket.png" alt="image of wicket" className='logo' />
-          <h1>CricDirectory</h1>
+          <Link to="/" id='logoText'>CricDirectory</Link>
         </div>
 
         <ul>
