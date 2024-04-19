@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 12px;
 
     max-width: 200px;
     min-height: 340px;
-    border: 2px solid black;
+    border: 6px solid lightblue;
     border-radius: 4px;
     padding: 6px;
     text-align: center;
@@ -24,4 +24,14 @@
 .player-card button{
     padding: 6px 12px;
     
+}
+
+.statsLink{
+    background-color: lightskyblue;
+    padding: 6px 10px;
+}
+
+.player-card a{
+    text-decoration: none;
+    color: white;
 }

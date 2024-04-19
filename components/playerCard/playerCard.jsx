@@ -12,7 +12,7 @@ export default function PlayerCard({id, name, dobAndLocation, age, batsmanType, 
             <p className="player-batsman-type">{batsmanType}</p>
             <p className="player-bowling-type">{bowlingType}</p>
 
-            <Link to={`/stats?id=${id}`}>See Stats</Link>
+            <Link to={`/stats?id=${id}`} className="statsLink">See Stats</Link>
         </div>
     );
 }

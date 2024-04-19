@@ -58,8 +58,8 @@ export default function Home(){
               id={player.id} 
               imgSrc={""}
               name={player.name}
-              dobAndLocation={player.age} // Assuming 'age' property contains the desired data
-              age={player.batsmanType} // Assuming 'batsmanType' property contains the desired data
+              dobAndLocation={player.age}
+              age={player.batsmanType} 
               batsmanType={player.playerType}
               bowlingType={player.bowlingType}
               country={player.country}
